@@ -32,3 +32,8 @@ kwriteconfig6 --file plasma_workspace.notifyrc --group "Event/startkde" --key Ac
 ```bash
 kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "General" --key showMediaControls false
 ```
+
+## Keyboard Layout Settings (needs logout)
+```bash
+kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
+```
