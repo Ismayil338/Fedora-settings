@@ -33,7 +33,13 @@ kwriteconfig6 --file plasma_workspace.notifyrc --group "Event/startkde" --key Ac
 kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "General" --key showMediaControls false
 ```
 
-## Keyboard Layout Settings (needs logout)
+# Needs logout-login
+## Keyboard Layout Settings
 ```bash
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
+```
+
+## Do not highlight newly installed apps
+```bash
+kwriteconfig6 --file plasma-org.kde.plasma.desktop-appletsrc --group "Containments" --group "2" --group "Applets" --group "29" --group "Configuration" --group "General" --key highlightNewlyInstalledApps false
 ```
