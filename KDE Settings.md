@@ -10,9 +10,10 @@ kwriteconfig6 --file dolphinrc --group "DetailsMode" --key PreviewSize 32
 kwriteconfig6 --file dolphinrc --group "General" --key GlobalViewProps false
 ```
 
-## Disable Upper-Left Screen Edge
+## Disable Upper-Left Screen Edge & Enable Night Light
 ```bash
 kwriteconfig6 --file kwinrc --group "Effect-overview" --key BorderActivate 9
+kwriteconfig6 --file kwinrc --group "NightColor" --key Active true
 ```
 
 ## Region & Language Settings
