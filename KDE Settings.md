@@ -1,3 +1,4 @@
+[This repo helped to find paths](https://github.com/shalva97/kde-configuration-files)
 ## Dolphin Settings
 ```bash
 kwriteconfig6 --file dolphinrc --group "DetailsMode" --key PreviewSize 32
