@@ -1,4 +1,3 @@
-# Solutions to problems
 ## [Flatpak does not work](https://superuser.com/questions/1755709/getting-this-error-when-trying-to-use-flatpak-no-remote-refs-found-similar-to)
 
 ```bash
