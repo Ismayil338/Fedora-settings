@@ -1,9 +1,3 @@
-## Touchpad Settings
-```bash
-kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key DisableWhileTyping false
-kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key NaturalScroll true
-```
-
 ## Dolphin Settings
 ```bash
 kwriteconfig6 --file dolphinrc --group "DetailsMode" --key PreviewSize 32
@@ -34,6 +28,12 @@ kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "Ge
 ```
 
 # Needs logout-login
+## Touchpad Settings
+```bash
+kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key DisableWhileTyping false
+kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key NaturalScroll true
+```
+
 ## Keyboard Layout Settings
 ```bash
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
