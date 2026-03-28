@@ -1,7 +1,7 @@
 ## Touchpad Settings
 ```bash
 kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key DisableWhileTyping false
-kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key NaturalScroll false
+kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key NaturalScroll true
 ```
 
 ## Dolphin Settings
