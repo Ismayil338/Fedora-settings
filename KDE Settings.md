@@ -43,3 +43,12 @@ kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" -
 ```bash
 kwriteconfig6 --file plasma-org.kde.plasma.desktop-appletsrc --group "Containments" --group "2" --group "Applets" --group "29" --group "Configuration" --group "General" --key highlightNewlyInstalledApps false
 ```
+
+## Remove some Context Menu Entries
+```bash
+kwriteconfig6 --file kservicemenurc --key kleoencryptfiles false
+kwriteconfig6 --file kservicemenurc --key kleoencryptfolder false
+kwriteconfig6 --file kservicemenurc --key kleoencryptsignfiles false
+kwriteconfig6 --file kservicemenurc --key kleosignencryptfolder false
+kwriteconfig6 --file kservicemenurc --key kleosignfiles false
+```
