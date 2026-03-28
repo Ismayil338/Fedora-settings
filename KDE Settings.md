@@ -40,11 +40,6 @@ kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
 ```
 
-## Do not highlight newly installed apps
-```bash
-kwriteconfig6 --file plasma-org.kde.plasma.desktop-appletsrc --group "Containments" --group "2" --group "Applets" --group "29" --group "Configuration" --group "General" --key highlightNewlyInstalledApps false
-```
-
 ## Remove some Context Menu Entries
 ```bash
 kwriteconfig6 --file kservicemenurc --group Show --key kleoencryptfiles false
@@ -53,3 +48,8 @@ kwriteconfig6 --file kservicemenurc --group Show --key kleoencryptsignfiles fals
 kwriteconfig6 --file kservicemenurc --group Show --key kleosignencryptfolder false
 kwriteconfig6 --file kservicemenurc --group Show --key kleosignfiles false
 ```
+
+# Settings from plasma-org.kde.plasma.desktop-appletsrc (They change dynamically)
+## Do not highlight newly installed apps
+## Icon size: Small
+## Resize calendar in tray
