@@ -2,7 +2,7 @@
 * [Cursor](https://cursor.com/docs/get-started/quickstart)
 * [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 * [NAPS2](https://www.naps2.com/download)
-* [OpenDJK (Fedora)](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/#_installing_openjdk)
+* [OpenJDK (Fedora)](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/#_installing_openjdk)
 * [Transmission](https://transmissionbt.com/download)
 * [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
 
