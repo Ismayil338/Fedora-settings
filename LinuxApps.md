@@ -2,11 +2,12 @@
 * [Cursor](https://cursor.com/docs/get-started/quickstart)
 * [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 * [NAPS2](https://www.naps2.com/download)
+* [OpenDJK (Fedora)](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/#_installing_openjdk)
 * [Transmission](https://transmissionbt.com/download)
 * [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
 
 ```
-sudo dnf install transmission fastfetch
+sudo dnf install transmission fastfetch java-25-openjdk.x86_64
 ```
 
 ## Flatpaks (6)
