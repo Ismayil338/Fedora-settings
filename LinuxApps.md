@@ -1,4 +1,4 @@
-## RPMs (5)
+## RPMs (6)
 * [Cursor](https://cursor.com/docs/get-started/quickstart)
 * [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 * [NAPS2](https://www.naps2.com/download)
