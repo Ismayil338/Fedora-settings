@@ -28,12 +28,12 @@ kwriteconfig6 --file plasma_workspace.notifyrc --group "Event/startkde" --key Ac
 kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "General" --key showMediaControls false
 ```
 
+# Needs logout-login
 ## Drag & drop files directly without asking for actions
 ```bash
 kwriteconfig6 --file kdeglobals --group "KDE" --key DndBehavior MoveIfSameDevice
 ```
 
-# Needs logout-login
 ## Touchpad Settings
 ```bash
 kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key DisableWhileTyping false
