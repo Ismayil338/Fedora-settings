@@ -7,7 +7,7 @@
 * [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
 
 ```
-sudo dnf install transmission fastfetch java-25-openjdk.x86_64
+sudo dnf install transmission fastfetch java-25-openjdk.x86_64 python3-pip
 ```
 
 ## Flatpaks (6)
