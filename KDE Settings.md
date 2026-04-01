@@ -28,6 +28,11 @@ kwriteconfig6 --file plasma_workspace.notifyrc --group "Event/startkde" --key Ac
 kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "General" --key showMediaControls false
 ```
 
+## Drag & drop files directly without asking for actions
+```bash
+kwriteconfig6 --file kdeglobals --group "KDE" --key DndBehavior MoveIfSameDevice
+```
+
 # Needs logout-login
 ## Touchpad Settings
 ```bash
