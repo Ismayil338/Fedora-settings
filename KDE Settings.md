@@ -28,6 +28,12 @@ kwriteconfig6 --file plasma_workspace.notifyrc --group "Event/startkde" --key Ac
 kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "General" --key showMediaControls false
 ```
 
+## Spectacle Settings
+```bash
+kwriteconfig6 --file spectaclerc --group "General" --key autoSaveImage true
+kwriteconfig6 --file spectaclerc --group "General" --key clipboardGroup PostScreenshotCopyImage
+```
+
 # Needs logout-login
 ## Drag & drop files directly without asking for actions
 ```bash
