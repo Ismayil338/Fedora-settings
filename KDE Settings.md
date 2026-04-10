@@ -51,6 +51,11 @@ kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
 ```
 
+## Spectacle key combo
+```bash
+kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.spectacle.desktop" --key "RectangularRegionScreenShot" "Meta+Shift+S,Meta+Shift+S,RectangularRegionScreenShot"
+```
+
 ## Remove some Context Menu Entries
 ```bash
 kwriteconfig6 --file kservicemenurc --group Show --key kleoencryptfiles false
