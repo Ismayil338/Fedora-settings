@@ -53,7 +53,7 @@ kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" -
 
 ## Spectacle key combo
 ```bash
-kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.spectacle.desktop" --key "RectangularRegionScreenShot" "Meta+Shift+S,RectangularRegionScreenShot"
+kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.spectacle.desktop" --key "RectangularRegionScreenShot" "Meta+Shift+S"
 ```
 
 ## Remove some Context Menu Entries
