@@ -73,4 +73,4 @@ kwriteconfig6 --file kservicemenurc --group Show --key kleosignfiles false
 # Settings from plasma-org.kde.plasma.desktop-appletsrc (They change dynamically)
 ## Do not highlight newly installed apps
 ## Icon size: Small
-## Resize calendar in tray
+## Tray Settings
