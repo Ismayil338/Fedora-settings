@@ -34,7 +34,7 @@ kwriteconfig6 --file spectaclerc --group "General" --key autoSaveImage true
 kwriteconfig6 --file spectaclerc --group "General" --key clipboardGroup PostScreenshotCopyImage
 ```
 
-## File Search Settings (index file names only)
+## Index file names only
 ```bash
 kwriteconfig6 --file baloofilerc --group General --key "only basic indexing" true
 ```
