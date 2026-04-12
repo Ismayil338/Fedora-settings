@@ -36,7 +36,7 @@ kwriteconfig6 --file spectaclerc --group "General" --key clipboardGroup PostScre
 
 ## Index file names only
 ```bash
-kwriteconfig6 --file baloofilerc --group General --key "only basic indexing" true
+kwriteconfig6 --file baloofilerc --group "General" --key "only basic indexing" true
 ```
 
 # Needs logout-login
