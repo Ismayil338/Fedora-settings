@@ -54,7 +54,7 @@ kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699
 ## Key Combos (Win + Space, Win + S, Win + Shift + S)
 ```bash
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
-kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.krunner.desktop" --key "_launch" "Meta+S\tAlt+F2\tSearch\tAlt+Space"
+kwriteconfig6 --file kglobalshortcutsrc --group services --group org.kde.krunner.desktop --key _launch $'Search\tMeta+S\tAlt+F2\tAlt+Space'
 kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.spectacle.desktop" --key "RectangularRegionScreenShot" "Meta+Shift+S"
 ```
 
