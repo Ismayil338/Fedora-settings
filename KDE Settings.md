@@ -51,13 +51,10 @@ kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699
 kwriteconfig6 --file kcminputrc --group "Libinput" --group "1267" --group "12699" --group "ASUE120A:00 04F3:319B Touchpad" --key NaturalScroll true
 ```
 
-## Keyboard Layout key combo
+## Key Combos (Win + Space, Win + S, Win + Shift + S)
 ```bash
 kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" --key "Switch to Next Keyboard Layout" "Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout"
-```
-
-## Spectacle rectangular region key combo
-```bash
+kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.krunner.desktop" --key "_launch" "Meta+S\tAlt+F2\tSearch\tAlt+Space"
 kwriteconfig6 --file kglobalshortcutsrc --group "services" --group "org.kde.spectacle.desktop" --key "RectangularRegionScreenShot" "Meta+Shift+S"
 ```
 
