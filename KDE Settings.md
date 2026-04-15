@@ -39,6 +39,11 @@ kwriteconfig6 --file spectaclerc --group "General" --key clipboardGroup PostScre
 kwriteconfig6 --file baloofilerc --group "General" --key "only basic indexing" true
 ```
 
+## Make files to appear first in Search
+```bash
+kwriteconfig6 --file krunnerrc --group "Plugins" --group "Favorites" --key plugins "baloosearch,krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings"
+```
+
 # Needs logout-login
 ## Drag & drop files directly without asking for actions
 ```bash
