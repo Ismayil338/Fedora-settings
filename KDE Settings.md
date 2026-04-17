@@ -32,6 +32,7 @@ kwriteconfig6 --file kscreenlockerrc --group "Greeter" --group "LnF" --group "Ge
 ```bash
 kwriteconfig6 --file spectaclerc --group "General" --key autoSaveImage true
 kwriteconfig6 --file spectaclerc --group "General" --key clipboardGroup PostScreenshotCopyImage
+kwriteconfig6 --file plasmanotifyrc --group "Applications" --group "org.kde.spectacle" ShowPopups false
 ```
 
 ## Index file names only
