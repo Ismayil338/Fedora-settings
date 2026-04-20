@@ -17,10 +17,10 @@ sed -i '/<item oor:path="\/org.openoffice.Office.Common\/Misc"><prop oor:name="F
 ## `Ctrl`+`=` for page zoom
 ```bash
 FILE="$HOME/.config/libreoffice/4/user/registrymodifications.xcu"; \
-sed -i '0,/<oor:items[^>]*>/s//&\
+sed -i 's|<oor:items[^>]*>|&\
 <item oor:path="/org.openoffice.Office.Accelerators/PrimaryKeys/Global"><node oor:name="EQUAL_MOD1" oor:op="replace"><prop oor:name="Command" oor:op="fuse"><value xml:lang="en-US">.uno:ZoomPlus</value></prop></node></item>\
-<item oor:path="/org.openoffice.Office.Accelerators/PrimaryKeys/Global"><node oor:name="PAGEUP_SHIFT_MOD1" oor:op="remove"\/><\/item>\
-<item oor:path="/org.openoffice.Office.Accelerators/SecondaryKeys/Global"><node oor:name="PAGEUP_SHIFT_MOD1" oor:op="replace"><prop oor:name="Command" oor:op="fuse"><value xml:lang="en-US">.uno:ZoomPlus</value></prop></node></item>/' "$FILE"
+<item oor:path="/org.openoffice.Office.Accelerators/PrimaryKeys/Global"><node oor:name="PAGEUP_SHIFT_MOD1" oor:op="remove"/></item>\
+<item oor:path="/org.openoffice.Office.Accelerators/SecondaryKeys/Global"><node oor:name="PAGEUP_SHIFT_MOD1" oor:op="replace"><prop oor:name="Command" oor:op="fuse"><value xml:lang="en-US">.uno:ZoomPlus</value></prop></node></item>|' "$FILE"
 ```
 
 
