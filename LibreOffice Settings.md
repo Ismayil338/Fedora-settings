@@ -7,5 +7,8 @@ sed -i '/<item oor:path="\/org.openoffice.Setup\/L10N">/a\
 <item oor:path="/org.openoffice.Setup/Office/Factories/org.openoffice.Setup:Factory['\''com.sun.star.text.TextDocument'\'']"><prop oor:name="ooSetupFactoryDefaultFilter" oor:op="fuse"><value>Office Open XML Text</value></prop></item>' "$FILE"
 ```
 
+## SVG icons
+
+
 ## Enable `Ctrl`+`=` and `Ctrl`+`-` for page zoom
 Tools -> Customize -> Keyboard -> LibreOffice
