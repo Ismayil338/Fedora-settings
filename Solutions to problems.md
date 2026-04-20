@@ -5,9 +5,9 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 ```
 
 ## Change LibreOffice from Qt6 to GTK3
-go to `/usr/share/applications/`
-
-change libreoffice.desktop files add `SAL_USE_VCLPLUGIN=gtk3` after `Exec=`
+```bash
+sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
+```
 
 # For Lenovo laptop
 
