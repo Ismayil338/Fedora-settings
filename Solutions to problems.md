@@ -4,6 +4,11 @@
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+## Change LibreOffice from Qt6 to GTK3
+go to `/usr/share/applications/`
+
+change libreoffice.desktop files add `SAL_USE_VCLPLUGIN=gtk3` after `Exec=`
+
 # For Lenovo laptop
 
 ## [How to update firmware](https://askubuntu.com/questions/1237185/how-to-make-space-in-boot-efi-without-resizing-the-partition)
