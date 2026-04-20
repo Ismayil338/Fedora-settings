@@ -8,7 +8,11 @@ sed -i '/<item oor:path="\/org.openoffice.Setup\/L10N">/a\
 ```
 
 ## SVG icons
-
+```bash
+FILE="$HOME/.config/libreoffice/4/user/registrymodifications.xcu"; \
+sed -i '/<item oor:path="\/org.openoffice.Office.Common\/Misc"><prop oor:name="FirstRun" oor:op="fuse"><value>false<\/value><\/prop><\/item>/a\
+<item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="SymbolStyle" oor:op="fuse"><value>breeze_dark_svg</value></prop></item>' "$FILE"
+```
 
 ## Enable `Ctrl`+`=` and `Ctrl`+`-` for page zoom
 Tools -> Customize -> Keyboard -> LibreOffice
