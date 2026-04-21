@@ -14,6 +14,13 @@ sed -i '/<item oor:path="\/org.openoffice.Office.Common\/Misc"><prop oor:name="F
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="SymbolStyle" oor:op="fuse"><value>breeze_dark_svg</value></prop></item>' "$FILE"
 ```
 
+## Fix blurry Font Previews in GTK3
+```bash
+FILE="$HOME/.config/libreoffice/4/user/registrymodifications.xcu"; \
+sed -i 's|<oor:items[^>]*>|&\
+<item oor:path="/org.openoffice.Office.Common/Font/View"><prop oor:name="ShowFontBoxWYSIWYG" oor:op="fuse"><value>false</value></prop></item>|' "$FILE"
+```
+
 ## `Ctrl`+`=` for zoom in
 ```bash
 FILE="$HOME/.config/libreoffice/4/user/registrymodifications.xcu"; \
