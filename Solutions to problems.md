@@ -4,6 +4,11 @@
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+## Can't connect to University Wi-Fi
+use LTS versions of Ubuntu, for example:
+
+[Kubuntu LTS](https://kubuntu.org/download/)
+
 ## Change LibreOffice from Qt6 to GTK3
 ```bash
 sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
