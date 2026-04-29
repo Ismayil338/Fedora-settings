@@ -5,9 +5,8 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 ```
 
 ## Can't connect to University Wi-Fi
-use LTS versions of Ubuntu, for example:
-
-[Kubuntu LTS](https://kubuntu.org/download/)
+Ubuntu 24.04 and versions prior it, including flavors, can connect to our university Wi-Fi
+[Kubuntu 24.04 LTS](https://cdimage.ubuntu.com/kubuntu/releases/24.04.4/release/kubuntu-24.04.4-desktop-amd64.iso)
 
 ## Change LibreOffice from Qt6 to GTK3
 ```bash
