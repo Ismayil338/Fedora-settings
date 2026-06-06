@@ -1,5 +1,5 @@
 # Installing Fonts
-## Install Microsoft Fonts (Arial, Times New Roman, Consolas), [source](https://linuxcapable.com/install-microsoft-fonts-on-fedora-linux/)
+## Install Arial, Times New Roman and Consolas, [source](https://linuxcapable.com/install-microsoft-fonts-on-fedora-linux/)
 ### Download msttcore-fonts-installer
 ```bash
 curl -fLO https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
@@ -48,3 +48,11 @@ fc-match Arial
   * Sans-serif — Arial
   * Monospace — Consolas
 * Now change the same fonts for Cyrillic
+
+## Install SegoeUI, [source](https://github.com/mrbvrz/segoe-ui-linux)
+```bash
+git clone https://github.com/mrbvrz/segoe-ui-linux
+cd segoe-ui-linux
+chmod +x install.sh
+./install.sh
+```
