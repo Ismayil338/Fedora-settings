@@ -1,13 +1,16 @@
 # Installing Fonts
 ## Install Microsoft Fonts (Arial, Times New Roman, Consolas)
+### Download msttcore-fonts-installer
 ```bash
 curl -fLO https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 ```
 
+### Verify msttcore-fonts-installer
 ```bash
 printf '%s  msttcore-fonts-installer-2.6-1.noarch.rpm\n' '55d7f3a86533225634ff3ea2384b4356d9665a29cc7eeacff16602a1714afbb4' | sha256sum -c -
 ```
 
+### Install msttcore-fonts-installer
 ```bash
 (
     set -euo pipefail
