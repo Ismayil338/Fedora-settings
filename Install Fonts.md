@@ -1,5 +1,5 @@
 # Installing Fonts
-## Install Microsoft Fonts (Arial, Times New Roman, Consolas)
+## Install Microsoft Fonts (Arial, Times New Roman, Consolas), [source](https://linuxcapable.com/install-microsoft-fonts-on-fedora-linux/)
 ### Download msttcore-fonts-installer
 ```bash
 curl -fLO https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
