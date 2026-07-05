@@ -9,7 +9,7 @@ Ubuntu 24.04 and versions prior it, including flavors, can connect to our univer
 
 [Kubuntu 24.04 LTS](https://cdimage.ubuntu.com/kubuntu/releases/24.04.4/release/kubuntu-24.04.4-desktop-amd64.iso)
 
-## Change LibreOffice from Qt6 to GTK3
+## Change LibreOffice VCL from kf6 to gtk3
 ```bash
 sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
 ```
