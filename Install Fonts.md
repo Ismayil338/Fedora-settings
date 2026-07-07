@@ -56,3 +56,11 @@ cd segoe-ui-linux
 chmod +x install.sh
 ./install.sh
 ```
+
+## VSCode Fonts
+VSCode on Linux uses Noto Sans as UI font, and this can't be changed, use VSCodium instead, and change its font to SegoeUI:
+
+```
+"workbench.experimental.fontFamily": "Segoe UI",
+```
+
