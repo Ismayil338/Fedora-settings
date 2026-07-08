@@ -3,6 +3,7 @@
 ```bash
 kwriteconfig6 --file dolphinrc --group "DetailsMode" --key PreviewSize 32
 kwriteconfig6 --file dolphinrc --group "General" --key GlobalViewProps false
+kwriteconfig6 --file dolphinrc --group "General" --key RememberOpenedTabs false
 ```
 
 ## Disable Upper-Left Screen Edge & Enable Night Light
