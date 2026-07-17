@@ -4,7 +4,8 @@
 * [NAPS2](https://www.naps2.com/download)
 * [OpenJDK (Fedora)](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/#_installing_openjdk)
 * [Transmission](https://transmissionbt.com/download)
-* [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
+* ~~[Visual Studio Code](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)~~
+* [VSCodium](https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package)
 
 ```
 sudo dnf install transmission fastfetch java-25-openjdk.x86_64 python3-pip
