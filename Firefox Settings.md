@@ -1,26 +1,26 @@
 # Settings in about:config
-## Open it
+### Open it
 ```
 about:config
 ```
 
-## Disable Split View
+### Disable Split View
 ```
 browser.tabs.splitView.enabled
 ```
 
-## Disable Translate Text to from context menu
+### Disable Translate Text to from context menu
 ```
 browser.translations.select.enable
 ```
 
 # From settings
-## Disable Container Tabs
+### Disable Container Tabs
 ```
 use container tabs
 ```
 
-## Disable Link Previews
+### Disable Link Previews
 ```
 enable link previews
 ```
