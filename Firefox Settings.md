@@ -1,26 +1,80 @@
-# Settings in about:config
-## Open it
+## Enable Custom Stylesheets
+Goto: `about:config`
+
+Enable:
 ```
-about:config
+toolkit.legacyUserProfileCustomizations.stylesheets
 ```
 
-## Disable Split View
-```
-browser.tabs.splitView.enabled
-```
+Goto: `about:support`
 
-## Disable Translate Text to from context menu
-```
-browser.translations.select.enable
-```
+seach for `profile` word and open profile folder.
 
-# From settings
-## Disable Container Tabs
-```
-use container tabs
-```
+In profile folder create `chrome` folder and inside it create `userChrome.css`
 
-## Disable Link Previews
-```
-enable link previews
+## Clean right click context menu
+```css
+/* Hide "Open in Split View" */
+#context-openlinkinsplitview {
+    display: none !important;
+}
+
+/* Hide "Preview Link" */
+#context-previewlink {
+    display: none !important;
+}
+
+/* Hide "Bookmark Link" */
+#context-bookmarklink {
+    display: none !important;
+}
+
+/* Hide "Send Link to Device" and its separator line */
+#context-sendlinktodevice, 
+#context-sep-sendlinktodevice,
+
+/* Hide "Send Page to Device" and its separator line */
+#context-sendpagetodevice, 
+#context-sep-sendpagetodevice,
+
+/* Hide "Send Tab to Device" (from tab right-clicks) */
+#context_sendTabToDevice, 
+#context_sendTabToDevice_separator {
+    display: none !important;
+}
+
+/* Hide "Search Google for" */
+#context-searchselect {
+    display: none !important;
+}
+
+/* Hide "Translate Text to" */
+#context-translate-selection {
+    display: none !important;
+}
+
+/* Hide "Inspect Accesibility Options" */
+#context-inspect-a11y {
+    display: none !important;
+}
+
+/* Hide "Email image" */
+#context-sendimage {
+    display: none !important;
+}
+
+/* Hide "Search Image with Google Lens" */
+#context-visual-search {
+    display: none !important;
+}
+
+/* Hide "Set image as desktop background" */
+#context-setDesktopBackground { 
+    display: none !important; 
+}
+
+/* Hide the line separator directly below it */
+#context-sep-setbackground {
+    display: none !important;
+}
 ```
