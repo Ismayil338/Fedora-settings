@@ -5,3 +5,4 @@ about:config
 ```
 browser.tabs.splitView.enabled
 ```
+make it false
