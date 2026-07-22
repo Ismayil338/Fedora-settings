@@ -1,4 +1,4 @@
-# Settings in about:config
+## Settings in about:config
 ### Open it
 ```
 about:config
@@ -14,7 +14,7 @@ browser.tabs.splitView.enabled
 browser.translations.select.enable
 ```
 
-# From settings
+## From settings
 ### Disable Container Tabs
 ```
 use container tabs
