@@ -77,4 +77,9 @@ In profile folder create `chrome` folder and inside it create `userChrome.css`
 #context-sep-setbackground {
     display: none !important;
 }
+
+/* Hide separator under Copy Clean Link
+#context-sep-copylink {
+  display: none !important;
+}
 ```
