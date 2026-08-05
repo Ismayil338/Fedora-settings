@@ -79,7 +79,7 @@ In profile folder create `chrome` folder and inside it create `userChrome.css`
 }
 
 /* Hide separator under Copy Clean Link
-#context-sep-copylink {
+#frame-sep {
   display: none !important;
 }
 ```
