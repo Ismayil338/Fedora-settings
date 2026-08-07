@@ -14,6 +14,9 @@ Ubuntu 24.04 and versions prior it, including flavors, can connect to our univer
 sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
 ```
 
+## Shuffled songs always play in the same order on Spotify
+Disable Automix in Settings
+
 # For Lenovo laptop
 
 ## [How to update firmware](https://askubuntu.com/questions/1237185/how-to-make-space-in-boot-efi-without-resizing-the-partition)
