@@ -14,7 +14,7 @@ Ubuntu 24.04 and versions prior it, including flavors, can connect to our univer
 sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
 ```
 
-## Shuffled songs always play in the same order on Spotify
+## [Shuffled songs always play in the same order on Spotify](https://www.reddit.com/r/spotify/comments/16rhhh9/why_do_my_shuffled_songs_always_play_in_the_same/)
 Disable Automix in Settings
 
 # For Lenovo laptop
