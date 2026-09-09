@@ -9,6 +9,13 @@ Ubuntu 24.04 and versions prior it, including flavors, can connect to our univer
 
 [Kubuntu 24.04 LTS](https://cdimage.ubuntu.com/kubuntu/releases/24.04.4/release/kubuntu-24.04.4-desktop-amd64.iso)
 
+## Can't connect to University Wi-Fi from Android 14 phone
+* CA Certificate: Trust On First Use
+* Identity: (your email address)
+* Anonymous Identity: (your email address)
+
+[source](https://www.reddit.com/r/GooglePixel/comments/1769jhx/fix_wpaenterprise_not_connecting_with_android_14/)
+
 ## Change LibreOffice VCL from kf6 to GTK3
 ```bash
 sudo sed -i 's|^Exec=libreoffice|Exec=env SAL_USE_VCLPLUGIN=gtk3 libreoffice|' /usr/share/applications/libreoffice-*.desktop
