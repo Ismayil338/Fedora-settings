@@ -19,6 +19,11 @@ In profile folder create `chrome` folder and inside it create `userChrome.css`
     display: none !important;
 }
 
+/* Hide "Open in New Container Tab" */
+#context-openlinkinusercontext-menu {
+	display: none !important;
+}
+
 /* Hide "Preview Link" */
 #context-previewlink {
     display: none !important;
