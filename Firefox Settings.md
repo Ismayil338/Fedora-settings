@@ -90,6 +90,13 @@ In profile folder create `chrome` folder and inside it create `userChrome.css`
 ```
 
 ## Change system-ui font to SegoeUI, [source](https://connect.mozilla.org/t5/ideas/change-the-handling-of-quot-font-family-system-ui-quot/idi-p/11900)
+Goto: `about:config`
+
+Disable:
+```
+toolkit.legacyUserProfileCustomizations.stylesheets
+```
+
 Inside chrome folder create `userContent.css`
 
 ```css
