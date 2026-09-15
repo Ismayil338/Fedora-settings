@@ -94,7 +94,7 @@ Goto: `about:config`
 
 Disable:
 ```
-toolkit.legacyUserProfileCustomizations.stylesheets
+layout.css.system-ui.enabled
 ```
 
 Inside chrome folder create `userContent.css`
