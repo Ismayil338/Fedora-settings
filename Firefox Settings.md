@@ -10,9 +10,9 @@ Goto: `about:support`
 
 seach for `profile` word and open profile folder.
 
+## Clean right click context menu
 In profile folder create `chrome` folder and inside it create `userChrome.css`
 
-## Clean right click context menu
 ```css
 /* Hide "Open in Split View" */
 #context-openlinkinsplitview {
@@ -86,5 +86,23 @@ In profile folder create `chrome` folder and inside it create `userChrome.css`
 /* Hide separator under Copy Clean Link */
 #frame-sep {
   display: none !important;
+}
+```
+
+## Change system-ui font to SegoeUI
+Inside chrome folder create `userContent.css`
+
+```css
+@font-face {
+    font-family: system-ui;
+    src: local("Segoe UI");
+    font-weight: 100 1000;
+    font-style: normal;
+}
+@font-face {
+    font-family: system-ui;
+    src: local("Segoe UI");
+    font-weight: 100 1000;
+    font-style: italic;
 }
 ```
